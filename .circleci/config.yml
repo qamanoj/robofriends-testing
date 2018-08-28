@@ -12,8 +12,8 @@ jobs:
     steps:
       - checkout
       - run: echo "Double trouble"
-  workflows:
-    version: 2
-    bobby_sally:
-      - bobby
-      - sally
+workflows:
+  version: 2
+  bobby_sally:
+    - bobby
+    - sally
